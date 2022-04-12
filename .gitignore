@@ -102,6 +102,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+cnn_image_classifier/
 .env
 .venv
 env/
@@ -127,3 +128,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Image dataset
+dataset/
+dataset/single_prediction/
+dataset/test_set/
+dataset/training_set/
